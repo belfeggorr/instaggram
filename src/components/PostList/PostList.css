@@ -1,0 +1,57 @@
+.PostList {
+  width: 600px;
+  height: 910px;
+  margin-left: 246px;
+}
+.post__header {
+  width: 600px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid rgba(239, 239, 239, 1);
+  display: flex;
+  justify-content: space-between;
+}
+.post__footer {
+  width: 600px;
+  height: 249px;
+}
+.post__footer--actions {
+  width: 600px;
+  height: 24px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.post__header--avatar {
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.post__header--name {
+  margin-top: 5px;
+}
+.post__header--options {
+  width: 3px;
+  height: 3px;
+  padding-right: 40px;
+  padding-top: 18px;
+}
+.post__footer--actleft {
+  display: flex;
+  gap: 10px;
+}
+.post__footer--description {
+  width: 560px;
+  height: 109px;
+}
+.post__footer--likes {
+  font-weight: 69px;
+  font-size: 16;
+}
+.post__footer--description {
+  font-weight: 560px;
+  font-size: 36;
+}

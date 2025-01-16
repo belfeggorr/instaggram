@@ -1,0 +1,53 @@
+.Header {
+  height: 60px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.header__elements {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__btn {
+  display: flex;
+  gap: 25px;
+}
+.header__input {
+  width: 252px;
+  height: 36px;
+  margin-top: 12px;
+}
+.header__name {
+  width: 103px;
+  height: 29px;
+  margin-top: 15px;
+}
+.header__avatar {
+  width: 24px;
+  height: 24px;
+}
+.header__likes {
+  width: 24px;
+  height: 24px;
+}
+.header__compas {
+  width: 24px;
+  height: 24px;
+}
+.header__plus {
+  width: 24px;
+  height: 24px;
+}
+.header__lightning {
+  width: 24px;
+  height: 24px;
+}
+.header__home {
+  width: 24px;
+  height: 24px;
+}
+.header__btn {
+  padding-top: 18px;
+}
