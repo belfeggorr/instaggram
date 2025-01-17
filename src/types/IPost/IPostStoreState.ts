@@ -1,4 +1,4 @@
-import { IPost } from "./IPost";
+import { IPost } from "../IPost/IPost";
 
 export interface IPostStoreState {
   posts: IPost[];

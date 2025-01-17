@@ -1,4 +1,4 @@
-import { IAuth } from "./IAuth";
+import { IAuth } from "../IAuth/IAuth";
 
 export interface IAuthStoreState {
   user: IAuth;

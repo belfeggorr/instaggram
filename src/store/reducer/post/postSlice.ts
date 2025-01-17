@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { postGet } from "./postAction";
-import { IPostStoreState } from "../../types/IPostStoreState";
+import { IPostStoreState } from "../../../types/IPost/IPostStoreState";
 
 const initialState: IPostStoreState = {
   posts: [],

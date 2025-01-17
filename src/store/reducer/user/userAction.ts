@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { IAuth } from "../../types/IAuth";
-import { baseService } from "../../Api/url";
+import { IAuth } from "../../../types/IAuth/IAuth";
+import { baseService } from "../../../Api/url";
 import Cookies from "js-cookie";
 
 interface IUserAuth extends IAuth {

@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './Authorization.css'
-import { authUser } from '../store/reducer/authAction';
+import { authUser } from '../../store/reducer/user/userAction';
 import { useNavigate } from 'react-router-dom';
-import { useAppDispatch } from '../hooks/useAppDispatch';
+import { useAppDispatch } from '../../hooks/useAppDispatch';
 const Authorization = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');

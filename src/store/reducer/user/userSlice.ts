@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IAuthStoreState } from "../../types/IAuthStoreState";
-import { authUser, validationToken } from "./authAction";
-import { IAuth } from "../../types/IAuth";
+import { IAuthStoreState } from "../../../types/IAuth/IAuthStoreState";
+import { authUser, validationToken } from "./userAction";
+import { IAuth } from "../../../types/IAuth/IAuth";
 
 const initialState: IAuthStoreState = {
   user: {
